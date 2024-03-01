@@ -1,3 +1,5 @@
+# Churnometer
+
 ## How to use this repo
 
 1. Fork this repo and copy the https URL of your forked churnometer repo
@@ -27,6 +29,19 @@
 Note that the kernel says Python 3. It inherits from the workspace so it will be Python-3.8.12 as installed by our template. To confirm this you can use <code>! python --version</code> in a notebook code cell.
 
 Your workspace is now ready to use. When you want to return to this project, you can find it in your CodeAnywhere <a href="https://app.codeanywhere.com/" target="_blank" rel="noreferrer">Dashboard</a>. You should only create 1 workspace per project.
+
+**To use this repo in GitPod**
+
+Run `pyenv install 3.8.12`
+
+Run `pyenv local 3.8.12`
+
+Now requirements can be installed as above:
+
+* `pip3 install -r requirements.txt`
+* `pip3 install jupyter`
+
+The Jupyter server will not work (returns 403 error), but the notebooks can be used directly in GitPod
 
 ## Dataset Content
 The dataset is sourced from [Kaggle](https://www.kaggle.com/codeinstitute/telecom-churn-dataset). We created then a fictitious user story where predictive analytics can be applied in a real project in the workplace.
